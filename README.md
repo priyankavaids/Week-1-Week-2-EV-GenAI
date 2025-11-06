@@ -30,3 +30,26 @@ Week-1-EV-GenAI/
 │ └── ev_specs_cleaned.csv # Preprocessed dataset ready for use
 │
 └── 01_data_cleaning.ipynb # Google Colab notebook with cleaning steps
+
+
+## Week 2 — ML Model for EV Range Prediction 
+
+**Objective:**  
+To build a machine learning model that predicts the driving range of electric vehicles based on specifications.
+
+**Steps Completed:**
+- Imported cleaned dataset from Week-1
+- Trained Linear Regression, Random Forest, and XGBoost models
+- Compared model performance using MAE, RMSE, and R²
+- Visualized actual vs predicted EV range
+- Saved best model as `ev_range_rf_model.pkl`
+
+**Results:**
+| Model | MAE | RMSE | R² |
+|--------|------|------|------|
+| Random Forest | *value* | *value* | *value* |
+
+**Files Added:**
+- `Week-2/02_ml_model.ipynb`
+- `Week-2/ev_range_rf_model.pkl`
+
